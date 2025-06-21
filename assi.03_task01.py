@@ -1,0 +1,14 @@
+
+#a=input("Enter the number: ")
+def factorial(n):
+    if n < 2:
+        return 1
+    else:
+        return n * (factorial( n - 1))
+
+result = factorial(5)
+print("factorial of 5 is: " ,result)
+
+#output:-
+#Enter the number: 5
+#factorial of 5 is:  120
